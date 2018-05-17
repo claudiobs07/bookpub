@@ -1,11 +1,9 @@
-package br.com.claudiobs07.bookpub;
+package br.com.claudiobs07.bookpub.command;
 
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 import org.springframework.boot.CommandLineRunner;
-import org.springframework.stereotype.Component;
 
-@Component
 public class StartupRunner implements CommandLineRunner {
 
     private final Log logger = LogFactory.getLog(getClass());

@@ -19,7 +19,8 @@ public class StartupRunner implements CommandLineRunner {
         logger.info("Hello World");
     }
 
-    @Scheduled(initialDelay = 1000, fixedRate = 10000)
+    //TODO: ACTIVE if necessary
+    //@Scheduled(initialDelay = 1000, fixedRate = 10000)
     public void run() {
         logger.info("Number of books: " + bookRepository.count());
     }
